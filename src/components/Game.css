@@ -59,10 +59,10 @@
     }
     
     .letter, .blankSquere{
-        font-size: 40px;
+        font-size: 45px;
         text-align: center;
-        height: 50px;
-        width: 50px;
+        height: 60px;
+        width: 60px;
         line-height:normal;
     
     }
