@@ -46,7 +46,7 @@ button:hover{
   transform: scale(1.05);
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
   body {
     font-size: 14px; /* Reduza o tamanho da fonte para telas menores */
   }
