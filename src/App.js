@@ -134,7 +134,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="App efeito-vidro">
       {gameStage === "start" && <StartScreen startGame={startGame} />}
       {gameStage === "game" && (
         <Game
