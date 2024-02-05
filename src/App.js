@@ -38,11 +38,11 @@ function App() {
     const category =
       categories[Math.floor(Math.random() * Object.keys(categories).length)];
 
-    console.log(category);
+    // console.log(category);
 
     const word =
       words[category][Math.floor(Math.random() * words[category].length)];
-    console.log(word);
+    // console.log(word);
 
     return { word, category };
   },[words]);
@@ -56,8 +56,8 @@ function App() {
 
     wordLetters = wordLetters.map((l) => l.toLowerCase());
 
-    console.log(word, category);
-    console.log(wordLetters);
+    // console.log(word, category);
+    // console.log(wordLetters);
 
     setPickedWord(word);
     setPickedCategory(category);
@@ -134,7 +134,7 @@ function App() {
   };
 
   return (
-    <div className="App efeito_vidro">
+    <div className="App">
       {gameStage === "start" && <StartScreen startGame={startGame} />}
       {gameStage === "game" && (
         <Game
