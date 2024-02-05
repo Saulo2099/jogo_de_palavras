@@ -67,28 +67,5 @@
     
     }
 }
-@media (max-width: 500px){
 
-    .game h1{
-        font-size: 2em;
-    }
-    .wordContainer{
-        margin: 1em;
-        padding: 0.5em;
-        border: 4px solid #ecfa00;
-    }
-    
-    .letter, .blankSquere{
-        font-size: 30px;
-        text-align: center;
-        height: 30px;
-        width: 30px;
-        line-height:normal;
-    }
-    .letterContainer input{
-        height: 40px;
-        width: 40px;
-        
-    }
-}
 
