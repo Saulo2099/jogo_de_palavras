@@ -46,16 +46,12 @@ button:hover{
   transform: scale(1.05);
 }
 
-@keyframes colors {
-    0% {
-        background-position: 0% 50%;
-    }
+@media (max-width: 1200px) {
+  body {
+    font-size: 14px; /* Reduza o tamanho da fonte para telas menores */
+  }
 
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
+  .efeito_vidro {
+    padding: 2em; /* Reduza o padding */
+  }
 }
