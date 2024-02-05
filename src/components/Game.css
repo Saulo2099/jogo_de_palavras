@@ -48,3 +48,22 @@
     text-align: center;
     margin-right: 1em;
 }
+@media (max-width: 1000px){
+    .game h1{
+        font-size: 2em;
+    }
+    .wordContainer{
+        margin: 1em;
+        padding: 0.5em;
+        border: 8px solid #ecfa00;
+    }
+    
+    .letter, .blankSquere{
+        font-size: 40px;
+        text-align: center;
+        height: 50px;
+        width: 50px;
+        line-height:normal;
+    
+    }
+}
