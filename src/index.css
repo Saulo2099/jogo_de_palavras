@@ -1,13 +1,61 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* #010B40 #03258C #044BD9 #0476D9 #91D7F2 */
+html, body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  padding: 0;
+  
+  font-family: Helvetica, sans-serif;
+  background: linear-gradient(180deg, #044BD9 0%, #010B40 100%);
+
+  color: #fff;
+  
+  
+}
+
+.efeito_vidro{
+  padding: 3em;
+  background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(1, 1, 2, 0.555);
+    backdrop-filter: blur(1.5rem);
+    border-radius: 10px;
+}
+
+button {
+  background: #0476D9;
+  color: #fff;
+  padding: 0 2.8rem;
+  border: 0.1rem solid rgba(255, 255, 255, 0.589);
+  border-bottom: 0.2rem solid rgba(255, 255, 255, 0.712);
+  border-radius: 1.5em;
+  box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.432);
+  height: 2.6em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #03258C;
+  transform: scale(1.05);
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
